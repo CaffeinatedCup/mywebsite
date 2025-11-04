@@ -1,0 +1,49 @@
+body {
+  max-width: 700px;
+  margin: 40px auto;
+  font-family: monospace;
+  background: #fdfdfd;
+  color: #111;
+  line-height: 1.5;
+}
+
+a {
+  color: #0044cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header, footer {
+  text-align: center;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #aaa;
+  margin: 20px 0;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+ul {
+  list-style-type: square;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #111;
+    color: #ddd;
+  }
+  a {
+    color: #7aa2f7;
+  }
+  hr {
+    border-top-color: #444;
+  }
+}
+
